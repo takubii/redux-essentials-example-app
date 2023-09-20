@@ -7,7 +7,6 @@ import postsReducer from '../features/posts/postsSlice'
 export default configureStore({
   reducer: {
     posts: postsReducer,
-    // users: usersReducer,
     notifications: notificationsReducer,
     [apiSlice.reducerPath]: apiSlice.reducer,
   },
